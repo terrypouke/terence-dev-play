@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dev-play-blog"
+    }
+  },
+  "defaultProject": "dev-play-blog",
+  "cli": {
+    "analytics": false
+  }
 }
