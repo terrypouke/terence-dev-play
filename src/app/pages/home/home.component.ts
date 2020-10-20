@@ -6,9 +6,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  articles: any[];
   constructor() { }
 
   ngOnInit(): void {
+    const localdb = window.localStorage;
+    if (localdb.getItem('_articles')) {
+      this.articles = JSON.parse(localdb.getItem('_articles')) as any[];
+    } else {
+      this.articles = [];
+    }
   }
-
 }

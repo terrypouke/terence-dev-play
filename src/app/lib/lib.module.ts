@@ -17,7 +17,8 @@ import { HeaderComponent } from './header/header.component';
     CommonModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    ImageUploadComponent
   ]
 })
 export class LibModule { }

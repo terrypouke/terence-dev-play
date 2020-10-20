@@ -4,9 +4,9 @@
             <sb-header></sb-header>
             <h1>Add a new Article</h1>
             <form>
-
+                <sb-image-upload (changed)="getImage($event)"></sb-image-upload>
                 <input type="text" placeholder="hello" />
-                <button class="btn btn-primary">
+                <button class="btn btn-primary" (click)="addArticle()">
                     <span>Submit</span>
                     <i class="mdi mdi-arrow-right"></i>
                 </button>
