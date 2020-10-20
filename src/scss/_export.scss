@@ -1,0 +1,23 @@
+/* VENDORS */
+@import "https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap";
+@import "https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css";
+@import "../node_modules/@mdi/font/css/materialdesignicons.min.css";
+
+/* MODULES */
+@import "modules/variables";
+@import "modules/buttons";
+@import "modules/inputs";
+@import "modules/typography";
+@import "modules/animations";
+
+/* WIDGET - BASE */
+@import "widget/base/footer";
+@import "widget/base/header";
+
+/* WIDGET - HOME */
+@import "widget/home/quote";
+@import "widget/home/articles";
+
+/* WIDGET - HOME */
+@import "widget/article/form";
+@import "widget/article/details";
